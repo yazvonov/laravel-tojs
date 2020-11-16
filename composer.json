@@ -1,0 +1,34 @@
+{
+    "name": "yazvonov/laravel-tojs",
+    "description": "Transform PHP Vars to JavaScript for Laravel",
+    "keywords": ["laravel", "javascript", "js", "to js"],
+    "homepage": "https://github.com/yazvonov/laravel-tojs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Zvonov",
+            "email": "darkastral@ya.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Yazvonov\\LaravelToJs\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yazvonov\\LaravelToJs\\ToJsServiceProvider"
+            ],
+            "aliases": {
+                "ToJs": "Yazvonov\\LaravelToJs\\ToJsFacade"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
