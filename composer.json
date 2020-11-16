@@ -1,7 +1,7 @@
 {
     "name": "yazvonov/laravel-tojs",
     "description": "Transform PHP Vars to JavaScript for Laravel",
-    "keywords": ["laravel", "javascript", "js", "to js"],
+    "keywords": ["laravel", "javascript", "js", "tojs"],
     "homepage": "https://github.com/yazvonov/laravel-tojs",
     "license": "MIT",
     "authors": [
