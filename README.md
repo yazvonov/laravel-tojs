@@ -15,7 +15,6 @@ ToJs::put([
 
 Add tag <b>@tojs</b> to you blade template before \<script\>
 ```blade
-// Add directive @tojs to you blade template before <script>
 @tojs
 ```
 
