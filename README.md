@@ -1,5 +1,10 @@
 # Transform PHP Vars to JavaScript for Laravel
 
+## How to install
+
+```
+composer require yazvonov/laravel-tojs
+```
 
 ## What It Does
 This package Transform PHP Vars to JavaScript.
