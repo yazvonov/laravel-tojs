@@ -29,7 +29,11 @@ You will see this code on you page, and you can you it in JavaScript like <b>win
 ```
 
 ## Configuration
-You can change name in javascript, just add <b>TOJS_VAR_NAME=another_name</b> to your .env file.
+You can change name in javascript, just add 
+```
+TOJS_VAR_NAME=another_name 
+```
+to your .env file.
 
 ### Security
 
