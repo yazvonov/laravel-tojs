@@ -28,10 +28,13 @@ You will see this code on you page, and you can you it in JavaScript like <b>win
 <script>window.laravel = {"variable1":"I want to see you in JavaScript","variable2":"I want to see you in JavaScript too"};</script>
 ```
 
+## Configuration
+You can change name in javascript, just add <b>TOJS_VAR_NAME=another_name</b> to your .env file.
+
 ### Security
 
 If you discover any security-related issues, please email [zvonovyo@gmail.com](mailto:zvonovyo@gmail.com) instead of using the issue tracker.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

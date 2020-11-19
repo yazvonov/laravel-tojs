@@ -14,12 +14,14 @@ class ToJsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->mergeConfigFrom(__DIR__.'/config/tojs.php', 'tojs');
+
         $this->app->singleton('ToJs', function () {
             return new ToJsController();
         });
 
         Blade::directive('tojs', function () {
-            $template = "window.laravel = <?php echo json_encode(app('ToJs')->get()); ?>;";
+            $template = "window." . config('tojs.var_name') . " = <?php echo json_encode(app('ToJs')->get()); ?>;";
 
             return "<script>$template</script>";
         });
